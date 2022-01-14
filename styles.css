@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: hsl(217, 54%, 11%);
+}
+
+/* Containers */
+
+.container {
+    margin: 40px auto 30px;
+    width: 300px;
+    height: 540px;
+    background: hsl(216, 50%, 16%);
+    box-shadow: hsl(215, 32%, 27%);
+    border-radius: 15px;
+    padding: 10px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.img-container {
+    background-color: hsl(178, 100%, 50%);
+    margin-top: 10px;
+    width: 94%;
+    border-radius: 10px;
+    margin-left: 10px;
+    position: relative;
+}
+
+/* Header Image */
+
+.img1 {
+    border-radius: 8px;
+    margin-bottom: -4px;
+    width: 100%;
+}
+
+.icon-img {
+    position: absolute;
+    left: 43%;
+    top: 41%;
+    width: 16%;
+    height: auto;
+    display: none;
+}
+
+.img-container:hover .icon-img {
+    display: inline;
+}
+
+.img1:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+/* Main Section */
+
+.main {
+    padding: 0px 10px;
+}
+
+.item1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+}
+
+.item2 {
+    display: flex;
+}
+
+.item1-img {
+    margin: -3.5px 0px;
+    padding-right: 3px;
+}
+
+/* Headings and Paragraph */
+
+h1 {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 300;
+    color:hsl(215, 51%, 70%);
+    margin-bottom: 0;
+}
+
+h4 {   
+    font-size: 14px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    margin-top: 10px;
+}
+
+p {
+    font-size: 17.5px;
+    font-weight: 300;
+    color:hsl(215, 51%, 70%);
+    line-height: 1.4;
+    margin-bottom: 0;
+}
+
+/* information about nft */
+
+#creator-info {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#nft-name {
+    padding-top: 8px;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+#nft-name:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+#nft-price {
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+}
+
+#creator-name {
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+#creator-name:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+/* Creator's image  */
+
+.img3 {
+    width: 30px;
+    height: 30px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+
+/* Horizontal */
+
+hr {
+    border: 1px solid hsl(215, 51%, 70%);
+    opacity: 0.1;
+    margin-top: 20px;
+}
+
+/* Footer Section */
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(0, 0%, 100%); 
+}
+
+.attribution a:hover { 
+    color: hsl(178, 100%, 50%); 
+}
