@@ -126,7 +126,6 @@ I plan to learn either bootstrap or tailwind for css. I also want to learn to ap
 ## Author
 
 - Frontend Mentor - [@ikquilibriumSG](https://www.frontendmentor.io/profile/ikquilibrium)
-- Twitter - [@ikquilibrium](https://www.twitter.com/ikquilibrium)
 
 
 ## Acknowledgments
